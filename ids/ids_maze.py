@@ -160,12 +160,11 @@ if __name__ == '__main__':
     ]
     start = (24, 2); end = (2, 37) 
     s = Solve(maze, start, end)
-    max_depth = 230
+    max_depth = 400
     ans, depth = s.ids(start, max_depth)
     s.backtracking()
     s.get_path()
     # if not ans:
     #     print(f'\n{ F.RED }No se encontró una ruta de { start } a { end }')
-    print((ans, depth))
 
 
