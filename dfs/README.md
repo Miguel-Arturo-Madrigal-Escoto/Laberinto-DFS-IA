@@ -4,5 +4,5 @@ Consiste en una implementación del problema del laberinto, utilizando el algori
 de búsqueda en profundidad (DFS) para la clase de Inteligencia Artificial (IA).
 
 ## Ejemplo:
-![plot](./solve.PNG)
+![plot](./dfs.PNG)
 
